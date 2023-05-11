@@ -3,7 +3,6 @@
     justify-content: space-between;
     border-bottom: 1px solid rgb(207, 207, 207);
     padding: 1em 2em;
-    background: yellow;
 }
 .banner{
     font-family: monospace;
@@ -33,7 +32,6 @@ section#home{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: blue;
 }
 .main{
     padding: 30px;
@@ -47,13 +45,13 @@ section#home{
     height: 950px;
 }
 .element-left{
-    background: red;
 	float: left;
 	height: 100%;
 	width: 65%;
 }
 img{
     margin-left: 75px;
+    padding: 18px 0px 0px 0px
 }
 .riview{
     color: rgb(141, 138, 138);
@@ -82,7 +80,6 @@ img{
     font-family: cursive;
 }
 .element-right{
-    background: orange;
 	float: left;	
 	width: 35%;
 	height: 100%;
@@ -91,11 +88,13 @@ img{
     background: black;
     color: white;
     padding: 1em 2em 1em 2em;
+    margin: 10px 0px;
 }
 .buttonsend{
-    padding: 10px 60px;
+    padding: 10px 66px;
     background: black;
     color: white;
+    margin-bottom: 40px;
 }
 .list{
     display: flex;
@@ -127,20 +126,29 @@ img{
     display: block;
 }
 .form{
-    background: lightgray;
+    background: rgb(226, 225, 225);
     margin-left: 30px;
+    margin-right: 70px;
 }
 .judulform{
-    padding: 10px 30px 0px 30px;
+    padding: 0px 0px 0px 35px;
     font-family: cursive;
+}
+.nameform{
+    padding: 0px 0px 0px 35px;
 }
 .inputform{
     margin-bottom: 20px;
     padding: 10px 5px;
 }
-
+.emailform{
+    padding: 0px 0px 0px 35px;
+}
+.selectform{
+    padding: 0px 0px 0px 35px;
+}
 .SelectOption{
-    padding: 10px 30px;
+    padding: 10px 35px;
     margin-bottom: 30px;
 }
 .break{
@@ -156,7 +164,6 @@ img{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
-    background-color: #2196F3;
     padding: 10px;
   }
 .grid-container > div {
@@ -173,23 +180,27 @@ img{
 }
 .captiongrid{
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 18px;
     font-family: monospace;
     color: rgb(171, 170, 170);
 }
 .closing{
-    height: 250px;
-    background: yellow;
+    height: 300px;
     text-align: center;
     display: flow-root;
+    border-top: 1px solid rgb(207, 207, 207);
 }
 .closing>h1{
     font-family: monospace;
+    font-size: 40px;
+}
+.closing>p{
+    font-size: 20px;
+    color: rgb(171, 170, 170);
 }
 .footer{
     height: 150px;
     width: 100%;
-    background: lightsalmon;
     justify-content: center;
     align-items: center;
     display: flex;
