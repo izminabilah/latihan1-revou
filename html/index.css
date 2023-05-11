@@ -132,6 +132,7 @@ img{
 }
 .judulform{
     padding: 10px 30px 0px 30px;
+    font-family: cursive;
 }
 .inputform{
     margin-bottom: 20px;
@@ -149,7 +150,7 @@ img{
     justify-content: center;
     align-items: center;
     display: flex;
-    font-family: monospace; font-size: 20px;
+    font-family: monospace; font-size: 30px;
 }
 .grid-container {
     display: grid;
@@ -160,9 +161,21 @@ img{
   }
 .grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
     padding: 20px 0;
     font-size: 30px;
+}
+.list6grid{
+    display:flex;
+}
+.judulgrid{
+    margin-top: 10px;
+    font-family: cursive;
+}
+.captiongrid{
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: monospace;
+    color: rgb(171, 170, 170);
 }
 .closing{
     height: 250px;
